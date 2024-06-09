@@ -1,0 +1,71 @@
+.wrapper img {
+  width: 60%;
+  clip-path: circle(35.7% at 50% 50%);
+}
+.card::before {
+  content: "";
+}
+
+.card {
+  text-align: center;
+  width: 200px;
+  height: 300px;
+  padding-inline: 10px;
+  /* padding-block: 30px; */
+
+  background-color: transparent;
+  /* glass skin */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: scale 1s 0.1s;
+  color: white;
+  margin-left: 50px;;
+}
+.container-img a {
+  display: block;
+}
+.card:hover {
+  scale: 1.1;
+}
+.container-img {
+  /* background:linear-gradient(320deg, #f27121, #e94057, #8a2387);
+     */
+  width: 50vw;
+
+  height: 100vh;
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+
+  /* justify-content: space-evenly; */
+  width: 100vw;
+  height: 100vh;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+body {
+  position: relative;
+  background: #152919;
+  /* background-repeat: no-repeat; */
+  background-position: center;
+  background-size: ;
+
+  height: 100vh;
+}
+.card .info h1 {
+  font-size: 3rem;
+  margin: 0;
+  font-family: serif;
+}
+.card .info p {
+  font-size: 1.3rem;
+}
+.wrapper a {
+  display: inline-block;
+}

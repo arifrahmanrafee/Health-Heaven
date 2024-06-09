@@ -1,0 +1,40 @@
+body {
+  background-color: #122315;
+}
+.card {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flex  a {
+  text-decoration: none;
+  color:white;
+  font-family:sans-serif;
+  font-size: 20px;
+}
+.card-1{
+    background:url("../image/hospital1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-2{
+    background:url("../image/hospital2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+card-1:hover{
+    transform:scale(1.6)
+}

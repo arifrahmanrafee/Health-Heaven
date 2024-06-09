@@ -1,0 +1,119 @@
+/* styles.css */
+
+body {
+  height: 100vh;
+  margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  
+  .container {
+    padding-top: 50px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  
+  
+  header {
+    background-image: url('header\ background.jpg'); 
+    background-size: cover;
+    padding: 40px;
+  }
+  
+  header img {
+    float: left;
+    height: 40px;
+  }
+  
+  header h1 {
+    color: rgb(223, 228, 224);
+    margin-top: 5;
+  }
+  
+  section {
+    padding: 90px 1;
+  }
+  
+  #emergency-support {
+    background-color: #2b6141;
+    height: 25vh;
+  }
+  
+  #emergency-support .btn {
+    padding: 13px 80px;
+    background-color: #e5dbdd;
+    color: #1d0e0eea;
+    text-decoration: lavenderblush;
+    margin-block-end: 1cqmin;
+  }
+  
+  #emergency-support.btn:hover {
+   
+    background-color: #77740e;
+
+
+
+  }
+  
+  #ancient-medicine {
+    display: flow-root ;
+    justify-content:center ;
+    align-items: center;
+    min-height: 80vh;
+    background-image: url('./medicine.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #081109;
+    padding: 100px;
+    font-size: xx-large;
+    font-weight: 500;
+    font-style: inherit;
+    margin-block-end: 1cqmin;
+  
+  }
+  
+  #disease {
+    display: flow-root;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-image: url('./disease.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #100808;
+    padding: 100px;
+    font-size: x-large;
+    font-weight: 500;
+    font-style: inherit;
+    margin-block-end: 1cqmin;
+  }
+  .container1{
+
+
+  }
+  
+  
+   a {
+    color: #1c14b797;
+  }
+  
+  a:hover {
+    color: #1c14b797;
+    
+  }
+  .btn {
+
+
+    border-radius: 18px;
+  }
+  .medicine{
+    margin-bottom: 30px;
+  
+  }
+
+  .boro{
+    font-size: 15px;
+  }

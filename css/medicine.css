@@ -1,0 +1,77 @@
+.wrapper img {
+  width: 60%;
+  clip-path: circle(35.7% at 50% 50%);
+}
+.card::before {
+  content: '';
+}
+
+.card {
+  text-align: center;
+  width: 200px;
+  height: 300px;
+  padding-inline: 10px;
+  /* margin-right: 10px;; */
+
+  background-color: transparent;
+  /* glass skin */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: scale 1s 0.1s;
+  color: white;
+}
+.container-img a {
+  display: block;
+}
+.card:hover {
+  scale: 1.1;
+}
+.container-img {
+  /* background:linear-gradient(320deg, #f27121, #e94057, #8a2387);
+       */
+
+  height: 300vh;
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+  width: 100vw;
+  height: 300vh;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+body {
+  position: relative;
+  /* background-image: url("../image/patterbn.jpg"); */
+  background-color: #122315;
+  /* background-repeat: no-repeat; */
+  background-position: center;
+  height: 100vh;
+}
+.card .info h1 {
+  font-size: 3rem;
+  margin: 0;
+  font-family: serif;
+}
+.card .info p {
+  font-size: 1.2rem;
+}
+.wrapper a {
+  display: inline-block;
+}
+.main-header {
+  color: white;
+  font-family: sans-serif;
+  font-size: 8rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 700;
+}

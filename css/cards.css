@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+a{
+  text-decoration: none;
+}
+.card{
+  width:350px;
+  height:550px;
+  background-color: white;
+  overflow: hidden;;
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 1fr 2fr 1fr;
+
+  box-shadow: 1px 1px 5px 2px rgba(0,0,0,0.32);
+  border-radius: 17px 17px 17px 17px;
+  font-family: "Platypi", serif;
+  transition:scale 1s 0.1s;
+  z-index: 20000000;
+  
+}
+.card img{
+  width:100%;
+}
+.flex{
+  display: flex;
+  justify-content: space-around;
+}
+.hero{
+  height:100vh;
+  margin-top:4rem;
+}
+.first{
+
+}
+h1.heading{
+  /* text-align: center; */
+  color:black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.4rem;
+ 
+}
+p.desc{
+  text-align: center;
+  align-self: baseline;
+  padding-inline: 20px;;
+  color:rgb(52, 54, 52);
+  line-height: 1.09;
+ 
+}
+
+.card-footer{
+  /* margin-top: 1rem; */
+  display: flex;
+  justify-content: space-between;
+
+}
+.status{
+
+  background-color: #052943;
+
+}
+.stat{
+  overflow: hidden;;
+
+}
+/* .box2{
+  border-inline: 2px solid #A4A6B2;
+} */
+.status h4{
+  height:10%;
+/* margin:auto;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color:white; */
+}
+/* ============================== */
+.card:hover{
+  scale:1.1;
+}
+/* ====================================== */
+
+.second-block{
+  background-image: url("block.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+
+}
+.second{
+  margin-left: 55px;
+}

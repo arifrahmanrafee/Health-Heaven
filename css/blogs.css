@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 10;
+  padding: 10;
+  background-color: #122315;
+}
+.inner{
+  width: 40vw;
+
+}
+.inner h2{
+  margin-bottom: 10px;
+}
+.doctor{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+  align-items: center;
+}
+.doctor-section{
+  color:white;
+}
+.contain{
+  width:90vw;
+  margin:0 auto;
+}

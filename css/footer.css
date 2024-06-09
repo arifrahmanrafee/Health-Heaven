@@ -1,0 +1,31 @@
+
+@font-face{
+    font-family: "Deacon";
+    src: url("font/DeaconTest-Thin-BF63c8afcf61b4f.ttf");
+    src: url("font/DeaconTest-Bold-BF63c8afcee0ca9.ttf");
+    src: url("font/DeaconTest-Medium-BF63c8afceb851c.ttf");
+    font-family: "Graphik";
+    src: url("font/GraphikMedium_1.ttf");
+    font-family: "hand";
+    src: url("font/Rich-Cheese.ttf");;
+}
+.content{
+    color:white;
+
+}
+.footer-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-heading h2{
+    font-family: sans-serif;
+    font-size: 5rem;
+    z-index: 2000000000000000;
+}
+.ftr-highlight{
+    color:#FFED53;
+}
+hr{
+    z-index: 10;
+}
